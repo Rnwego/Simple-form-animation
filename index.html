@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/663fd4b683.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="error_alert"></div>
+    <form>
+        <div class="field-name">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" onclick="emptyError()" required>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+
+        <div class="field-email inactive">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" onclick="emptyError()" required>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+
+        <div class="field-website inactive">
+            <i class="fas fa-globe"></i>
+            <input type="url" placeholder="Website" onclick="emptyError()" required>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+
+        <div class="field-password inactive">
+            <i class="fas fa-key"></i>
+            <input type="password" placeholder="Password" onclick="emptyError()" required>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+
+        <div class="field-finish inactive">
+            <i class="fas fa-heart"></i>
+            <p>Thank You!</p>
+            <i class="fas fa-heart"></i>
+        </div>
+    </form>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
